@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Кэт энерджи</title>
+</head>
+
+<body class="">
+  <header class="main-header">
+    <nav class="navigation">
+      <a class="main-header__logo">
+        <img src="/images/logo_catmobile.svg" width="33" height="38" alt="Логотип КэтЭнерджи">
+      </a>
+      <button class="button hero__button">
+        <span class="visually-hidden">Открыть меню</span>
+        <img src="/images/logomobile.svg" width="24" height="24" alt="Меню">
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a>
+              Главная
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="catalog.html">
+              Каталог продукции
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              Подбор программы
+            </a>
+          </li>
+      </div>
+    </nav>
+  </header>
+
+  <form class="menu__form" action="" method="get" class="form-example">
+    <h1 class="visually-hidden">Заполните анкету, и мы подберем<br>
+      программу питания для вашего кота</h1>
+    <div class="form-example">
+      <label for="name">имя:* </label>
+      <input type="text" name="name" id="name" required />
+    </div>
+    <div class="form-example">
+      <label for="email">вес:</label>
+      <input type="email" name="email" id="email" required />
+    </div>
+    <div class="form-example">
+      <label for="email">возраст (лет):</label>
+      <input type="email" name="email" id="email" required />
+    </div>
+
+    <fieldset class="block-radiobutton">
+      <ul class="block-radiobutton__group">
+        <li class="block-radiobutton__item">
+          <input class="control-input" type="radio">похудение
+        </li>
+        <li class="block-radiobutton__item">
+          <input class="control-input" type="radio">набор массы
+        </li>
+        <li class="block-radiobutton__item">
+          <input class="control-input" type="radio">не знаю (нужен ваш совет)
+        </li>
+      </ul>
+    </fieldset>
+
+    <h2 class="visually-hidden">Контактные данные<br>
+      (владельца кота)</h2>
+
+    <fieldset class="form-contact">
+      <label for="email">E-mail:* </label>
+      <input type="email" placeholder="kuklachev@gmail.com" id="email" name="email" />
+
+      <label for="phone">Телефон: </label>
+      <input type="tel" placeholder="8(960)900-60-90" id="phone" name="phone" />
+    </fieldset>
+
+    <h2 class="visually-hidden">Комментарий</h2>
+
+    <fieldset class="comment">
+      <textarea name="comment">Расскажите обо всех повАдках кота</textarea>
+    </fieldset>
+
+    <h2 class="visually-hidden">Дополнительно</h2>
+
+    <fieldset class="checkbox">
+
+      <ul class="checkbox-catalog">
+        <li class="checkbox-catalog__item">
+          <input class="control-input" type="checkbox" value="pool" name="infrastructure">Сахаразаменитель
+        </li>
+
+        <li class="checkbox-catalog__item">
+          <input class="control-input" type="checkbox" value="pool" name="infrastructure">Питьевая вода
+        </li>
+
+        <li class="checkbox-catalog__item">
+          <input class="control-input" type="checkbox" value="pool" name="infrastructure">Молоко
+        </li>
+
+        <li class="checkbox-catalog__item">
+          <input class="control-input" type="checkbox" value="pool" name="infrastructure">Витамины
+        </li>
+        <input type="button" value="Отправить заявку">
+        <span class="visually-hidden">*- Обязательные поля</span>
+      </ul>
+    </fieldset>
+
+    <fieldset class="contact-map">
+      <div>приглашаем к сотрудничеству дилеров!</div>
+      <div>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
+
+      <!-- карта локации-->
+
+    </fieldset>
+
+
+  </form>
+
+  <footer class="main-footer">
+    <div class="main-footer__logo">
+
+    </div>
+    <div class="main-footer__wrapper">
+
+      <ul class="socials main-footer__socials">
+        <li class="social__list">
+          <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в
+            Ютубе</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+        </li>
+      </ul>
+      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
